@@ -1,10 +1,10 @@
 pipeline {
     agent any
     environment {
-        GIT_URL = 'git@github.com:stevanojsuwuh/robot-jenkins-with-docker.git'
+        GIT_URL = 'https://github.com/Fadli2001/robot-jenkins-with-docker.git'
         BRANCH = 'master'
-        ROBOT = '/home/enigma/anaconda3/bin/robot'
-        CHANNEL = '#training'
+        ROBOT = '/home/fadli2001/.local/bin/robot'
+        CHANNEL = '#learn-jenkins'
         IMAGE = 'my-robot-test'
         CONTAINER = 'my-robot-test-app'
         DOCKER_APP = '/usr/bin/docker'
